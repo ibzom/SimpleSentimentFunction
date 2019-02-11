@@ -2,7 +2,7 @@
 
 
 
-SimpleSentiment_df<-function(textVector = rise$FiveReasons1) {
+SimpleSentiment_df<-function(textVector) {
   require(tidyverse)
   require(tidytext)
   textVector_df<-data_frame(text = textVector)
